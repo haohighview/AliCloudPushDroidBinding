@@ -1,0 +1,10 @@
+﻿<metadata>
+  <attr path="/api/package[@name='com.meizu.cloud.pushsdk']/class[@name='MzPushMessageReceiver']/method[@name='onHandleIntent' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.content.Intent']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.meizu.cloud.pushsdk']/class[@name='SystemReceiver']/method[@name='onHandleIntent' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.content.Intent']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.meizu.cloud.pushsdk.notification.model']/class[@name='ActVideoSetting']/field[@name='ACT_VIDEO_SETTING']" name="managedName">NewActVideoSetting</attr>
+  <attr path="/api/package[@name='com.meizu.cloud.pushsdk.notification.model']/class[@name='AdvanceSetting']/field[@name='ADVANCE_SETTING']" name="managedName">NewAdvanceSetting</attr>
+  <attr path="/api/package[@name='com.meizu.cloud.pushsdk.notification.model']/class[@name='AppIconSetting']/field[@name='APP_ICON_SETTING']" name="managedName">NewAppIconSetting</attr>
+  <attr path="/api/package[@name='com.meizu.cloud.pushsdk.notification.model']/class[@name='NotifyType']/field[@name='NOTIFY_TYPE']" name="managedName">NewNotifyType</attr>
+  <attr path="/api/package[@name='com.meizu.cloud.pushsdk.notification.model']/class[@name='NotificationStyle']/field[@name='NOTIFICATION_STYLE']" name="managedName">NewNotificationStyle</attr>
+  <attr path="/api/package[@name='com.meizu.cloud.pushsdk.notification.model']/class[@name='TimeDisplaySetting']/field[@name='TIME_DISPLAY_SETTING']" name="managedName">NewTimeDisplaySetting</attr>
+</metadata>

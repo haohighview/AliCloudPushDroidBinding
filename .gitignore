@@ -63,3 +63,9 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
+/AliCloudPushDroidBinding/obj
+/.vs
+/AliMeizuPushBinding/obj
+/AliThirdPushBinding/obj
+/AliCloudPushDroidBinding/.vs/AliCloudPushDroidBinding/v16
+/AliThirdPushBinding/AliThirdPushBinding.csproj.user

@@ -1,0 +1,21 @@
+﻿<metadata>
+  <remove-node path="/api/package[@name='com.xiaomi.mipush.sdk']/class[@name='PushMessageHandler']/method[@name='a' and count(parameter)=0]"/>
+  <add-node path="/api/package[@name='com.xiaomi.mipush.sdk']/class[@name='PushMessageHandler']">
+    <method  name="a" return="boolean" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" jni-signature="()Z" jni-return="Z" bridge="false" synthetic="false" visibility="protected">
+    </method>
+  </add-node>
+  
+  <attr path="/api/package[@name='com.coloros.mcssdk.mode']/class[@name='Message']/field[@name='MESSAGE']" name="managedName">MessageDroid</attr>
+
+  <remove-node path="/api/package[@name='com.xiaomi.push.service']/class[@name='XMPushService']/method[@name='a' and count(parameter)=1 and parameter[1][@type='int']]"/>
+  <!--<add-node path="/api/package[@name='com.xiaomi.push.service']/class[@name='xmpushservice']">
+    <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()z" bridge="false" native="false" return="boolean" jni-return="z" static="false" synchronized="false" synthetic="false" visibility="public">
+    </method>
+  </add-node>-->
+
+  <attr path="/api/package[@name='com.huawei.appmarket.component.buoycircle.impl.update.ui.dialog']/class[@name='CheckUpdateDialog']/method[@name='onCreateDialog' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.huawei.appmarket.component.buoycircle.impl.update.ui.dialog']/class[@name='DownloadProgressDialog']/method[@name='onCreateDialog' and count(parameter)=0]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.huawei.appmarket.component.buoycircle.impl.update.ui.mydelegate']/class[@name='AbsUpdateDelegate']/field[@name='updateType']" name="managedName">NewUpdateType</attr>
+  <attr path="/api/package[@name='com.huawei.appmarket.component.buoycircle.impl.utils']/class[@name='IOUtil']/method[@name='closeQuietly' and count(parameter)=1 and parameter[1][@type='java.io.OutputStream']]" name="managedName">NewCloseQuietly</attr>
+  <attr path="/api/package[@name='com.huawei.appmarket.component.buoycircle.impl.update.http']/class[@name='HttpRequestHelper']" name="managedName">NewHttpRequestHelper</attr>
+</metadata>

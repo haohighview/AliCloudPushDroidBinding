@@ -1,0 +1,39 @@
+﻿<metadata>
+  <remove-node path="/api/package[@name='com.taobao.agoo']/class[@name='TaobaoBaseIntentService']/method[@name='onError' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='java.lang.String']]"/>
+  <remove-node path="/api/package[@name='com.taobao.agoo']/class[@name='TaobaoBaseIntentService']/method[@name='onMessage' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.content.Intent']]"/>
+  <remove-node path="/api/package[@name='com.taobao.agoo']/class[@name='TaobaoBaseIntentService']/method[@name='onRegistered' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='java.lang.String']]"/>
+
+  <add-node path="/api/package[@name='anet.channel.bytes']/class[@name='ByteArray']">
+    <method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+      <parameter name="p0" type="java.lang.Object" />
+    </method>
+  </add-node>
+
+  <add-node path="/api/package[@name='org.android.spdy']/class[@name='SpdyByteArray']">
+    <method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+      <parameter name="p0" type="java.lang.Object" />
+    </method>
+  </add-node>
+
+  <add-node path="/api/package[@name='anet.channel.session']/class[@name='TnetSpdySession']">
+    <method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+      <parameter name="p0" type="java.lang.Object" />
+    </method>
+  </add-node>
+
+  <attr path="/api/package[@name='anetwork.channel.aidl.adapter']/class[@name='ConnectionDelegate']/method[@name='getConnHeadFields' and count(parameter)=0]" name="return">System.Collections.IDictionary</attr>
+
+  <remove-node  path="/api/package[@name='com.taobao.agoo']/class[@name='IRegister']/method[@name='onFailure' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.String']]"/>
+
+  <attr path="/api/package[@name='com.alibaba.sdk.android.push']/class[@name='MessageReceiver']/method[@name='onHandleCall' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.content.Intent']]" name="visibility">protected</attr>
+
+  <attr path="/api/package[@name='anet.channel']/class[@name='Session']" name="managedName">NewSession</attr>
+
+  <attr path="/api/package[@name='anet.channel.session']/class[@name='TnetSpdySession']/method[@name='getRecvTimeOutRunnable' and count(parameter)=0]" name="visibility">public</attr>
+
+  <remove-node path="/api/package[@name='com.alibaba.sdk.android.push.common.util.sendrequest']/class[@name='SendRequestTask']/method[@name='doInBackground' and count(parameter)=1 and parameter[1][@type='java.util.Map&lt;java.lang.String, java.lang.String&gt;...']]"/>
+
+  <remove-node path="/api/package[@name='anet.channel']/class[@name='SessionCenter']/method[@name='a' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"/>
+
+  <attr path="/api/package[@name='com.alibaba.sdk.android.ams.common.spi']/interface[@name='FactoryProvider']/method[@name='getFactoryInstance' and count(parameter)=0]" name="return">global::Com.Alibaba.Sdk.Android.Ams.Common.Securitybox.ISecurityBoxServiceFactory</attr>
+</metadata>
